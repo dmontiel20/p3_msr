@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<robot name="rover_wheel" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <xacro:macro name="rover_wheel" params="">
+    
+    <joint name="wheel_1" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="-0.00000 0.00000 0.05000"/>
+      <parent link="eje_1_link"/>
+      <child link="wheel_1_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <joint name="wheel_2" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.05000"/>
+      <parent link="eje_2_link"/>
+      <child link="wheel_2_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <joint name="wheel_3" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="-0.00000 0.00000 -0.00000" xyz="-0.00000 0.00000 0.05000"/>
+      <parent link="eje_3_link"/>
+      <child link="wheel_3_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <joint name="wheel_4" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="-0.00000 1.57080 0.00000" xyz="-0.05000 0.00000 0.00000"/>
+      <parent link="eje_4_link"/>
+      <child link="wheel_4_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <joint name="wheel_5" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="-0.00000 1.57080 0.00000" xyz="-0.05000 -0.00000 0.00000"/>
+      <parent link="eje_5_link"/>
+      <child link="wheel_5_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <joint name="wheel_6" type="continuous">
+      <limit lower="0" upper="0" effort="500.00000" velocity="0.00000"/>
+      <origin rpy="0.00000 1.57080 0.00000" xyz="-0.05000 0.00000 0.00000"/>
+      <parent link="eje_6_link"/>
+      <child link="wheel_6_link"/>
+      <axis xyz="0.00000 0.00000 1.00000"/>
+    </joint>
+
+    <link name="wheel_1_link">
+      <collision name="wheel_1_collision">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.002.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_1">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.002.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="wheel_2_link">
+      <collision name="wheel_2_collision">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_2">
+        <origin rpy="-0.00000 -0.00000 -0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="wheel_3_link">
+      <collision name="wheel_3_collision">
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.001.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="-0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_3">
+        <origin rpy="0.00000 -0.00000 0.00000" xyz="0.00000 -0.00000 0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.001.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="wheel_4_link">
+      <collision name="wheel_4_collision">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.005.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 0.00000 0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_4">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.005.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="wheel_5_link">
+      <collision name="wheel_5_collision">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.003.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_5">
+        <origin rpy="-0.00000 0.00000 -0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.003.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="wheel_6_link">
+      <collision name="wheel_6_collision">
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.004.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <inertia ixx="0.19823" ixy="-0.00000" ixz="-0.00000" iyy="0.11142" iyz="-0.00000" izz="0.11142"/>
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <mass value="4.00000"/>
+      </inertial>
+      <visual name="wheel_6">
+        <origin rpy="0.00000 0.00000 0.00000" xyz="0.00000 -0.00000 -0.00000"/>
+        <geometry>
+          <mesh filename="file://$(find msr_robot)/meshes/dae/Torus.004.dae" scale="0.26000 0.26000 0.50000"/>
+        </geometry>
+      </visual>
+    </link>
+    <material name="Material">
+      <color rgba="0.80000 0.80000 0.80000 1.00000"/>
+    </material>
+
+  </xacro:macro>
+
+</robot>

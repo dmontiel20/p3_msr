@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world -- -j16 -l16
+[0.074s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world -- -j16 -l16
+[0.075s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world
+[0.084s] -- Install configuration: ""
+[0.084s] -- Execute custom install script
+[0.084s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/launch/urjc_excavation.launch.py
+[0.085s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/launch/urjc_excavation_msr.launch.py
+[0.085s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/launch/view_urjc_excavation.launch.py
+[0.085s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/blue_cube/meshes/blue_cube.dae
+[0.086s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/blue_cube/model.config
+[0.086s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/blue_cube/model.sdf
+[0.086s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/green_cube/meshes/green_cube.dae
+[0.086s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/green_cube/model.config
+[0.087s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/green_cube/model.sdf
+[0.087s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/red_cube/meshes/red_cube.dae
+[0.087s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/red_cube/model.config
+[0.087s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/red_cube/model.sdf
+[0.087s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.047.jpg
+[0.088s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.049.jpg
+[0.088s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.051.jpg
+[0.088s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.054.jpg
+[0.088s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.055.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.056.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.057.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.058.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.059.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.060.jpg
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.061.jpg
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_0.064.jpg
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_1.014.jpg
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/Image_1.016.jpg
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/URJC_excavation.dae
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/meshes/URJC_excavation.stl
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/model.config
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/models/urjc_excavation/model.sdf
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/worlds/urjc_excavation.world
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/worlds/urjc_excavation_msr.world
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/environment/urjc_excavation_world.dsv
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/ament_index/resource_index/package_run_dependencies/urjc_excavation_world
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/ament_index/resource_index/parent_prefix_path/urjc_excavation_world
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/environment/ament_prefix_path.dsv
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/environment/path.sh
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/environment/path.dsv
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/local_setup.bash
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/local_setup.sh
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/local_setup.zsh
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/local_setup.dsv
+[0.092s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/package.dsv
+[0.104s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/ament_index/resource_index/packages/urjc_excavation_world
+[0.104s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.104s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/cmake/urjc_excavation_worldConfig.cmake
+[0.105s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/cmake/urjc_excavation_worldConfig-version.cmake
+[0.105s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/urjc_excavation_world/share/urjc_excavation_world/package.xml
+[0.125s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/urjc_excavation_world

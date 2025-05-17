@@ -1,0 +1,53 @@
+[0.013s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot -- -j16 -l16
+[0.067s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot -- -j16 -l16
+[0.079s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot
+[0.088s] -- Install configuration: ""
+[0.088s] -- Execute custom install script
+[0.088s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/arm/gripper.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/arm/scara.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/base/rover_base.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/ros2_control.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/sensors/camera.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/sensors/imu_sensor.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/utils/utils.urdf.xacro
+[0.089s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/wheels/rover_wheel.urdf.xacro
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_controllers.launch.py
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_gazebo.launch.py
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_state_publisher.launch.py
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/config/rover_bridge.yaml
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/config/rover_controllers.yaml
+[0.090s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/robots/rover.urdf.xacro
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cube.dae
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cube.dae_history.log
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.031.dae
+[0.091s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.031.dae_history.log
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.035.dae
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.035.dae_history.log
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.001.dae
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.001.dae_history.log
+[0.092s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.002.dae
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.002.dae_history.log
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.003.dae
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.003.dae_history.log
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.004.dae
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.004.dae_history.log
+[0.093s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.005.dae
+[0.094s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.005.dae_history.log
+[0.094s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.dae
+[0.094s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.dae_history.log
+[0.094s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/package_run_dependencies/msr_robot
+[0.094s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/parent_prefix_path/msr_robot
+[0.095s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/path.sh
+[0.095s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/path.dsv
+[0.095s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.bash
+[0.096s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.sh
+[0.096s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.dsv
+[0.096s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/package.dsv
+[0.107s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/packages/msr_robot
+[0.107s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/cmake/msr_robotConfig.cmake
+[0.107s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/cmake/msr_robotConfig-version.cmake
+[0.107s] -- Up-to-date symlink: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/package.xml
+[0.109s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot

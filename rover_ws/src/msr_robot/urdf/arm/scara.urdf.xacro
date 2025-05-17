@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<robot name="scara" xmlns:xacro="http://wiki.ros.org/xacro">
+  <xacro:macro name="scara" params="">
+
+    <!-- Joints -->
+    <joint name="A1_eje_1" type="revolute">
+      <limit lower="-4.0" upper="4.0" effort="500.0" velocity="1.0"/>
+      <origin rpy="0 0 0" xyz="0 0 0.55"/>
+      <parent link="viga_brazo_link"/>
+      <child link="eje_brazo_1_link"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="A3_eje_3" type="prismatic">
+      <limit lower="0.15" upper="2.15" effort="500.0" velocity="1.0"/>
+      <origin rpy="0 0 0" xyz="0 0 -1.175"/>
+      <parent link="soporte_movil_link"/>
+      <child link="movil_link"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="A4_eje_4" type="revolute">
+      <limit lower="-4.0" upper="4.0" effort="500.0" velocity="1.0"/>
+      <origin rpy="0 0 0" xyz="0 0 -1.025"/>
+      <parent link="movil_link"/>
+      <child link="soporte_pinza_link"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="A_soporte_brazo_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 -0.8 0.275"/>
+      <parent link="base_link"/>
+      <child link="A_soporte_brazo_link"/>
+    </joint>
+
+    <joint name="base_brazo_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 0.075"/>
+      <parent link="A_soporte_brazo_link"/>
+      <child link="base_brazo_link"/>
+    </joint>
+
+    <joint name="A2_eje_2" type="revolute">
+      <limit lower="-2.75" upper="2.75" effort="500.0" velocity="1.0"/>
+      <origin rpy="0 0 0" xyz="0 -0.6 0.025"/>
+      <parent link="l1_link"/>
+      <child link="eje_brazo_2_link"/>
+      <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="l1_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 -0.6 -0.025"/>
+      <parent link="eje_brazo_1_link"/>
+      <child link="l1_link"/>
+    </joint>
+
+    <joint name="l2_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 -0.6 0.025"/>
+      <parent link="eje_brazo_2_link"/>
+      <child link="l2_link"/>
+    </joint>
+
+    <joint name="soporte_movil_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 -0.7 0"/>
+      <parent link="l2_link"/>
+      <child link="soporte_movil_link"/>
+    </joint>
+
+    <joint name="viga_brazo_link_joint" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 0.55"/>
+      <parent link="base_brazo_link"/>
+      <child link="viga_brazo_link"/>
+    </joint>
+
+    <!-- Links -->
+    <!-- A_soporte_brazo_link -->
+    <link name="A_soporte_brazo_link">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry><box size="0.7 0.7 0.05"/></geometry>
+      </visual>
+      <collision>
+        <geometry><box size="0.7 0.7 0.05"/></geometry>
+      </collision>
+    </link>
+
+    <link name="base_brazo_link">
+      <visual>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry><cylinder radius="0.2" length="0.1"/></geometry>
+      </visual>
+      <collision>
+        <geometry><cylinder radius="0.2" length="0.1"/></geometry>
+      </collision>
+    </link>
+
+    <link name="eje_brazo_1_link">
+      <collision><origin xyz="0 0 0" rpy="0 0 0"/><geometry><cylinder radius="0.025" length="0.06"/></geometry></collision>
+      <visual><origin xyz="0 0 0" rpy="0 0 0"/><geometry><cylinder radius="0.025" length="0.06"/></geometry></visual>
+      <inertial><mass value="0.5"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.00023" ixy="0" ixz="0" iyy="0.00023" iyz="0" izz="0.00016"/>
+      </inertial>
+    </link>
+
+    <link name="eje_brazo_2_link">
+      <collision><origin xyz="0 0 0" rpy="0 0 0"/><geometry><cylinder radius="0.025" length="0.15"/></geometry></collision>
+      <visual><origin xyz="0 0 0" rpy="0 0 0"/><geometry><cylinder radius="0.025" length="0.06"/></geometry></visual>
+      <inertial><mass value="0.5"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.00023" ixy="0" ixz="0" iyy="0.00023" iyz="0" izz="0.00016"/>
+      </inertial>
+    </link>
+
+    <link name="l1_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.15" length="0.05"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry><mesh filename="file://$(find msr_robot)/meshes/dae/Cylinder.031.dae" scale="0.15 0.75 0.025"/></geometry>
+      </visual>
+      <inertial><mass value="3.0"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.0175" ixy="0" ixz="0" iyy="0.0175" iyz="0" izz="0.03375"/>
+      </inertial>
+    </link>
+
+    <link name="l2_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.15" length="0.05"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/>
+        <geometry><mesh filename="file://$(find msr_robot)/meshes/dae/Cylinder.035.dae" scale="0.15 0.75 0.025"/></geometry>
+      </visual>
+      <inertial><mass value="3.0"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.4198" ixy="0" ixz="0" iyy="0.01739" iyz="0" izz="0.43594"/>
+      </inertial>
+    </link>
+
+    <link name="movil_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.04" length="2.2"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.04" length="2.2"/></geometry></visual>
+      <inertial><mass value="2.0"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.66747" ixy="0" ixz="0" iyy="0.66747" iyz="0" izz="0.0016"/>
+      </inertial>
+    </link>
+
+    <link name="soporte_movil_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.1" length="0.2"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.1" length="0.2"/></geometry></visual>
+      <inertial><mass value="2.0"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.01167" ixy="0" ixz="0" iyy="0.01167" iyz="0" izz="0.01"/>
+      </inertial>
+    </link>
+
+    <link name="soporte_pinza_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.075" length="0.1"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.075" length="0.1"/></geometry></visual>
+      <inertial><mass value="0.5"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.00112" ixy="0" ixz="0" iyy="0.00112" iyz="0" izz="0.00141"/>
+      </inertial>
+    </link>
+
+    <link name="viga_brazo_link">
+      <collision><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.075" length="1.0"/></geometry></collision>
+      <visual><origin rpy="0 0 0" xyz="0 0 0"/><geometry><cylinder radius="0.075" length="1.0"/></geometry></visual>
+      <inertial><mass value="8.0"/><origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="0.67792" ixy="0" ixz="0" iyy="0.67792" iyz="0" izz="0.0225"/>
+      </inertial>
+    </link>
+
+  </xacro:macro>
+</robot>

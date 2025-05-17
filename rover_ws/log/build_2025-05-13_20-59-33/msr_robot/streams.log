@@ -1,0 +1,134 @@
+[0.025s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/src/msr_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot
+[0.240s] -- The C compiler identification is GNU 13.3.0
+[0.409s] -- The CXX compiler identification is GNU 13.3.0
+[0.450s] -- Detecting C compiler ABI info
+[0.641s] -- Detecting C compiler ABI info - done
+[0.659s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.661s] -- Detecting C compile features - done
+[0.680s] -- Detecting CXX compiler ABI info
+[0.886s] -- Detecting CXX compiler ABI info - done
+[0.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.906s] -- Detecting CXX compile features
+[0.907s] -- Detecting CXX compile features - done
+[0.929s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.145s] -- Found Python3: /home/dmontiel/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter 
+[1.282s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.427s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[1.437s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[1.562s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.606s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.712s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.964s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.974s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.192s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.237s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.055s] -- Found controller_manager: 4.28.1 (/opt/ros/jazzy/share/controller_manager/cmake)
+[3.847s] -- Found rviz2: 14.1.10 (/opt/ros/jazzy/share/rviz2/cmake)
+[3.856s] -- Found rviz_common: 14.1.10 (/opt/ros/jazzy/share/rviz_common/cmake)
+[3.941s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.944s] -- Found OGRE
+[3.944s] --   static     : OFF
+[3.944s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.944s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.944s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.945s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.945s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[3.945s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.945s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[3.946s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.946s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.946s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.946s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[4.021s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[4.047s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.434s] -- Found X11: /usr/include   
+[4.435s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.619s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.619s] -- Looking for gethostbyname
+[4.799s] -- Looking for gethostbyname - found
+[4.799s] -- Looking for connect
+[4.974s] -- Looking for connect - found
+[4.975s] -- Looking for remove
+[5.153s] -- Looking for remove - found
+[5.153s] -- Looking for shmat
+[5.331s] -- Looking for shmat - found
+[5.331s] -- Looking for IceConnectionNumber in ICE
+[5.513s] -- Looking for IceConnectionNumber in ICE - found
+[5.595s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[5.620s] -- Found moveit_ros_move_group: 2.12.2 (/opt/ros/jazzy/share/moveit_ros_move_group/cmake)
+[5.717s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[5.779s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.920s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[6.075s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.075s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.428s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[6.493s] -- Found moveit_kinematics: 2.12.2 (/opt/ros/jazzy/share/moveit_kinematics/cmake)
+[6.497s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[6.524s] -- Found moveit_planners: 2.12.2 (/opt/ros/jazzy/share/moveit_planners/cmake)
+[6.530s] -- Found moveit_simple_controller_manager: 2.12.2 (/opt/ros/jazzy/share/moveit_simple_controller_manager/cmake)
+[6.534s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[6.554s] -- Found moveit_ros_visualization: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_visualization/cmake)
+[6.559s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread date_time system filesystem 
+[6.592s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[6.617s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[6.859s] -- Found moveit_setup_assistant: 2.12.3 (/opt/ros/jazzy/share/moveit_setup_assistant/cmake)
+[7.001s] -- Configuring done (6.9s)
+[7.012s] -- Generating done (0.0s)
+[7.016s] -- Build files have been written to: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot
+[7.040s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/src/msr_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot
+[7.042s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot -- -j16 -l16
+[7.104s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot -- -j16 -l16
+[7.105s] Invoking command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot
+[7.115s] -- Install configuration: ""
+[7.115s] -- Execute custom install script
+[7.116s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/arm/gripper.urdf.xacro
+[7.128s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/arm/scara.urdf.xacro
+[7.140s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/base/rover_base.urdf.xacro
+[7.153s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/ros2_control.urdf.xacro
+[7.165s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/sensors/camera.urdf.xacro
+[7.177s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/sensors/imu_sensor.urdf.xacro
+[7.188s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/utils/utils.urdf.xacro
+[7.199s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/urdf/wheels/rover_wheel.urdf.xacro
+[7.212s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_controllers.launch.py
+[7.224s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_gazebo.launch.py
+[7.236s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/launch/robot_state_publisher.launch.py
+[7.247s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/config/rover_bridge.yaml
+[7.261s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/config/rover_controllers.yaml
+[7.273s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/robots/rover.urdf.xacro
+[7.285s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cube.dae
+[7.296s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cube.dae_history.log
+[7.307s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.031.dae
+[7.319s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.031.dae_history.log
+[7.331s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.035.dae
+[7.342s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Cylinder.035.dae_history.log
+[7.353s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.001.dae
+[7.365s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.001.dae_history.log
+[7.377s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.002.dae
+[7.388s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.002.dae_history.log
+[7.400s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.003.dae
+[7.412s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.003.dae_history.log
+[7.423s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.004.dae
+[7.435s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.004.dae_history.log
+[7.448s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.005.dae
+[7.460s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.005.dae_history.log
+[7.473s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.dae
+[7.485s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/meshes/dae/Torus.dae_history.log
+[7.496s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/package_run_dependencies/msr_robot
+[7.508s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/parent_prefix_path/msr_robot
+[7.520s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/ament_prefix_path.sh
+[7.531s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/ament_prefix_path.dsv
+[7.542s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/path.sh
+[7.554s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/environment/path.dsv
+[7.564s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.bash
+[7.576s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.sh
+[7.587s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.zsh
+[7.599s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/local_setup.dsv
+[7.610s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/package.dsv
+[7.623s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/ament_index/resource_index/packages/msr_robot
+[7.634s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/cmake/msr_robotConfig.cmake
+[7.646s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/cmake/msr_robotConfig-version.cmake
+[7.657s] -- Symlinking: /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/install/msr_robot/share/msr_robot/package.xml
+[7.672s] Invoked command in '/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot

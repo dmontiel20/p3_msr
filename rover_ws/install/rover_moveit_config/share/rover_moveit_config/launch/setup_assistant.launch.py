@@ -1,0 +1,1 @@
+/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/src/rover_moveit_config/launch/setup_assistant.launch.py

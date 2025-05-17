@@ -1,0 +1,1 @@
+/home/dmontiel/Desktop/Uni/Modelado/p3/rover_ws/build/msr_robot/ament_cmake_environment_hooks/local_setup.sh
